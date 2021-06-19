@@ -1,0 +1,16 @@
+.trendContainer {
+  background-color: red;
+  padding-top: 12px;
+  width: 100%;
+}
+.trendSection {
+  width: 100%;
+}
+.trendHeading {
+  font-size: 24px;
+  font-weight: 500;
+}
+.trendCards {
+  display: flex;
+  overflow-x: scroll;
+}

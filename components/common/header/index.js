@@ -4,7 +4,7 @@ import styles from "./header.module.css";
 function Header() {
   return (
     <div className={styles.headerContainer}>
-      <label>Stackly</label>
+      <label className={styles.headerLogo}>Stackly</label>
       <AddButton />
     </div>
   );
