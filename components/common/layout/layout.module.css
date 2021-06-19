@@ -1,0 +1,14 @@
+.layout {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding-top: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  .layout {
+    width: 100%;
+  }
+}
